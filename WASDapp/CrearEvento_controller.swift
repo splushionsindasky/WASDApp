@@ -43,6 +43,8 @@ class CrearEvento_controller: UIViewController {
                 return
             }
             // temporal
+            //comentario jocoso
+            
             if let unwrappedData = data {
             let dataEnText = String.init(data: unwrappedData, encoding:NSUTF8StringEncoding)
                
