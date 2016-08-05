@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7590D54C1D42D6EF00E56AFC /* icono-regreso.png in Resources */ = {isa = PBXBuildFile; fileRef = 7590D54B1D42D6EF00E56AFC /* icono-regreso.png */; };
+		7590D54E1D42D82800E56AFC /* crear evento.png in Resources */ = {isa = PBXBuildFile; fileRef = 7590D54D1D42D82800E56AFC /* crear evento.png */; };
+		7590D5501D42DEBC00E56AFC /* enter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7590D54F1D42DEBB00E56AFC /* enter.png */; };
+		7590D5521D42E2A400E56AFC /* CrearEvento_controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590D5511D42E2A400E56AFC /* CrearEvento_controller.swift */; };
+		EA3672D21D3A9D900087A46B /* entrar-vista-2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3672C51D3A9D900087A46B /* entrar-vista-2.png */; };
+		EA3672D31D3A9D900087A46B /* entrar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3672C61D3A9D900087A46B /* entrar.png */; };
+		EA3672D41D3A9D900087A46B /* fondo.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3672C71D3A9D900087A46B /* fondo.png */; };
+		EA3672DD1D3A9F4E0087A46B /* fuentes in Resources */ = {isa = PBXBuildFile; fileRef = EA3672DC1D3A9F4E0087A46B /* fuentes */; };
+		EA3672DF1D3A9FB80087A46B /* label.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3672DE1D3A9FB80087A46B /* label.png */; };
 		EA9F579D1D3A904900BB7315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F579C1D3A904900BB7315 /* AppDelegate.swift */; };
 		EA9F579F1D3A904900BB7315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F579E1D3A904900BB7315 /* ViewController.swift */; };
 		EA9F57A21D3A904900BB7315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9F57A01D3A904900BB7315 /* Main.storyboard */; };
@@ -14,6 +23,13 @@
 		EA9F57A71D3A904900BB7315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9F57A51D3A904900BB7315 /* LaunchScreen.storyboard */; };
 		EA9F57B21D3A904900BB7315 /* WASDappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F57B11D3A904900BB7315 /* WASDappTests.swift */; };
 		EA9F57BD1D3A904900BB7315 /* WASDappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9F57BC1D3A904900BB7315 /* WASDappUITests.swift */; };
+		EAD5A9A51D42A7660053EFD5 /* Juego-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9A11D42A7660053EFD5 /* Juego-01.png */; };
+		EAD5A9A61D42A7660053EFD5 /* Juego-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9A21D42A7660053EFD5 /* Juego-02.png */; };
+		EAD5A9A71D42A7660053EFD5 /* Juego-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9A31D42A7660053EFD5 /* Juego-03.png */; };
+		EAD5A9AD1D42ACA60053EFD5 /* CREAR EVENTOS 2.1-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9A91D42ACA60053EFD5 /* CREAR EVENTOS 2.1-03.png */; };
+		EAD5A9AE1D42ACA60053EFD5 /* Juego 2 (2)-01.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9AA1D42ACA60053EFD5 /* Juego 2 (2)-01.png */; };
+		EAD5A9AF1D42ACA60053EFD5 /* Juego 2 (2)-02.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9AB1D42ACA60053EFD5 /* Juego 2 (2)-02.png */; };
+		EAD5A9B01D42ACA60053EFD5 /* Juego 2 (2)-03.png in Resources */ = {isa = PBXBuildFile; fileRef = EAD5A9AC1D42ACA60053EFD5 /* Juego 2 (2)-03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7590D54B1D42D6EF00E56AFC /* icono-regreso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icono-regreso.png"; path = "carpeta de imagenes/botones 3/icono-regreso.png"; sourceTree = "<group>"; };
+		7590D54D1D42D82800E56AFC /* crear evento.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "crear evento.png"; path = "carpeta de imagenes/botones/crear evento.png"; sourceTree = "<group>"; };
+		7590D54F1D42DEBB00E56AFC /* enter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = enter.png; path = "carpeta de imagenes/botones/enter.png"; sourceTree = "<group>"; };
+		7590D5511D42E2A400E56AFC /* CrearEvento_controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrearEvento_controller.swift; sourceTree = "<group>"; };
+		EA3672C51D3A9D900087A46B /* entrar-vista-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "entrar-vista-2.png"; path = "carpeta de imagenes/botones 3/entrar-vista-2.png"; sourceTree = "<group>"; };
+		EA3672C61D3A9D900087A46B /* entrar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = entrar.png; path = "carpeta de imagenes/botones 3/entrar.png"; sourceTree = "<group>"; };
+		EA3672C71D3A9D900087A46B /* fondo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fondo.png; path = "carpeta de imagenes/botones 3/fondo.png"; sourceTree = "<group>"; };
+		EA3672DC1D3A9F4E0087A46B /* fuentes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fuentes; sourceTree = "<group>"; };
+		EA3672DE1D3A9FB80087A46B /* label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = label.png; path = "carpeta de imagenes/label.png"; sourceTree = "<group>"; };
 		EA9F57991D3A904900BB7315 /* WASDapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WASDapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9F579C1D3A904900BB7315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA9F579E1D3A904900BB7315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +72,13 @@
 		EA9F57B81D3A904900BB7315 /* WASDappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WASDappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9F57BC1D3A904900BB7315 /* WASDappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WASDappUITests.swift; sourceTree = "<group>"; };
 		EA9F57BE1D3A904900BB7315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD5A9A11D42A7660053EFD5 /* Juego-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego-01.png"; path = "carpeta de imagenes/juego1_2/Juego-01.png"; sourceTree = "<group>"; };
+		EAD5A9A21D42A7660053EFD5 /* Juego-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego-02.png"; path = "carpeta de imagenes/juego1_2/Juego-02.png"; sourceTree = "<group>"; };
+		EAD5A9A31D42A7660053EFD5 /* Juego-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego-03.png"; path = "carpeta de imagenes/juego1_2/Juego-03.png"; sourceTree = "<group>"; };
+		EAD5A9A91D42ACA60053EFD5 /* CREAR EVENTOS 2.1-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "CREAR EVENTOS 2.1-03.png"; path = "carpeta de imagenes/mail/CREAR EVENTOS 2.1-03.png"; sourceTree = "<group>"; };
+		EAD5A9AA1D42ACA60053EFD5 /* Juego 2 (2)-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego 2 (2)-01.png"; path = "carpeta de imagenes/mail/Juego 2 (2)-01.png"; sourceTree = "<group>"; };
+		EAD5A9AB1D42ACA60053EFD5 /* Juego 2 (2)-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego 2 (2)-02.png"; path = "carpeta de imagenes/mail/Juego 2 (2)-02.png"; sourceTree = "<group>"; };
+		EAD5A9AC1D42ACA60053EFD5 /* Juego 2 (2)-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Juego 2 (2)-03.png"; path = "carpeta de imagenes/mail/Juego 2 (2)-03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +109,21 @@
 		EA9F57901D3A904900BB7315 = {
 			isa = PBXGroup;
 			children = (
+				7590D54F1D42DEBB00E56AFC /* enter.png */,
+				7590D54D1D42D82800E56AFC /* crear evento.png */,
+				7590D54B1D42D6EF00E56AFC /* icono-regreso.png */,
+				EAD5A9A91D42ACA60053EFD5 /* CREAR EVENTOS 2.1-03.png */,
+				EAD5A9AA1D42ACA60053EFD5 /* Juego 2 (2)-01.png */,
+				EAD5A9AB1D42ACA60053EFD5 /* Juego 2 (2)-02.png */,
+				EAD5A9AC1D42ACA60053EFD5 /* Juego 2 (2)-03.png */,
+				EAD5A9A11D42A7660053EFD5 /* Juego-01.png */,
+				EAD5A9A21D42A7660053EFD5 /* Juego-02.png */,
+				EAD5A9A31D42A7660053EFD5 /* Juego-03.png */,
+				EA3672DE1D3A9FB80087A46B /* label.png */,
+				EA3672DC1D3A9F4E0087A46B /* fuentes */,
+				EA3672C51D3A9D900087A46B /* entrar-vista-2.png */,
+				EA3672C61D3A9D900087A46B /* entrar.png */,
+				EA3672C71D3A9D900087A46B /* fondo.png */,
 				EA9F579B1D3A904900BB7315 /* WASDapp */,
 				EA9F57B01D3A904900BB7315 /* WASDappTests */,
 				EA9F57BB1D3A904900BB7315 /* WASDappUITests */,
@@ -103,6 +150,7 @@
 				EA9F57A31D3A904900BB7315 /* Assets.xcassets */,
 				EA9F57A51D3A904900BB7315 /* LaunchScreen.storyboard */,
 				EA9F57A81D3A904900BB7315 /* Info.plist */,
+				7590D5511D42E2A400E56AFC /* CrearEvento_controller.swift */,
 			);
 			path = WASDapp;
 			sourceTree = "<group>";
@@ -229,6 +277,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7590D5501D42DEBC00E56AFC /* enter.png in Resources */,
+				7590D54E1D42D82800E56AFC /* crear evento.png in Resources */,
+				7590D54C1D42D6EF00E56AFC /* icono-regreso.png in Resources */,
+				EAD5A9AD1D42ACA60053EFD5 /* CREAR EVENTOS 2.1-03.png in Resources */,
+				EAD5A9AE1D42ACA60053EFD5 /* Juego 2 (2)-01.png in Resources */,
+				EAD5A9AF1D42ACA60053EFD5 /* Juego 2 (2)-02.png in Resources */,
+				EAD5A9B01D42ACA60053EFD5 /* Juego 2 (2)-03.png in Resources */,
+				EAD5A9A51D42A7660053EFD5 /* Juego-01.png in Resources */,
+				EAD5A9A61D42A7660053EFD5 /* Juego-02.png in Resources */,
+				EAD5A9A71D42A7660053EFD5 /* Juego-03.png in Resources */,
+				EA3672DF1D3A9FB80087A46B /* label.png in Resources */,
+				EA3672DD1D3A9F4E0087A46B /* fuentes in Resources */,
+				EA3672D21D3A9D900087A46B /* entrar-vista-2.png in Resources */,
+				EA3672D31D3A9D900087A46B /* entrar.png in Resources */,
+				EA3672D41D3A9D900087A46B /* fondo.png in Resources */,
 				EA9F57A71D3A904900BB7315 /* LaunchScreen.storyboard in Resources */,
 				EA9F57A41D3A904900BB7315 /* Assets.xcassets in Resources */,
 				EA9F57A21D3A904900BB7315 /* Main.storyboard in Resources */,
@@ -256,6 +319,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7590D5521D42E2A400E56AFC /* CrearEvento_controller.swift in Sources */,
 				EA9F579F1D3A904900BB7315 /* ViewController.swift in Sources */,
 				EA9F579D1D3A904900BB7315 /* AppDelegate.swift in Sources */,
 			);
@@ -484,6 +548,7 @@
 				EA9F57C31D3A904900BB7315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA9F57C41D3A904900BB7315 /* Build configuration list for PBXNativeTarget "WASDappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +557,7 @@
 				EA9F57C61D3A904900BB7315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA9F57C71D3A904900BB7315 /* Build configuration list for PBXNativeTarget "WASDappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +566,7 @@
 				EA9F57C91D3A904900BB7315 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

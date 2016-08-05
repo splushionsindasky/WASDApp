@@ -1,25 +1,305 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bbe-FD-fUf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Coves Bold.otf">
+            <string>Coves-Bold</string>
+            <string>Coves-Bold</string>
+            <string>Coves-Bold</string>
+            <string>Coves-Bold</string>
+            <string>Coves-Bold</string>
+        </mutableArray>
+        <mutableArray key="Coves Light.otf">
+            <string>Coves-Light</string>
+            <string>Coves-Light</string>
+            <string>Coves-Light</string>
+            <string>Coves-Light</string>
+            <string>Coves-Light</string>
+            <string>Coves-Light</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Evento_Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Evento_Controller" id="BYZ-38-t0r" customClass="ViewController" customModule="WASDapp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Juego-01.png" translatesAutoresizingMaskIntoConstraints="NO" id="NzP-Hr-LEd">
+                                <rect key="frame" x="-6" y="-11" width="420" height="747"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Juego-02.png" translatesAutoresizingMaskIntoConstraints="NO" id="epa-1V-epD">
+                                <rect key="frame" x="87" y="28" width="240" height="79"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NOMBRE EVENTO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF4-NT-hVI">
+                                <rect key="frame" x="146" y="39" width="140" height="52"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="16"/>
+                                <color key="textColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UEA-mA-5Dq">
+                                <rect key="frame" x="30" y="28" width="23" height="35"/>
+                                <state key="normal" title="RegresarBoton" image="icono-regreso.png"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Juego-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="02i-U9-3mM">
+                                <rect key="frame" x="20" y="133" width="374" height="179"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="213" y="247"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="msR-1b-La4">
+            <objects>
+                <viewController id="ahB-hc-WUL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vzx-Xb-P02"/>
+                        <viewControllerLayoutGuide type="bottom" id="2vd-8l-KJG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sIg-Jr-4Ox">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kF5-55-zge" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="-198"/>
+        </scene>
+        <!--Newsfeed_Controller-->
+        <scene sceneID="fdI-D5-duV">
+            <objects>
+                <viewController title="Newsfeed_Controller" id="8RF-5L-Ds2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A01-ki-8bS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jf7-ZK-5Wk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xdl-se-nC9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="q6l-mp-b70">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Juego-02.png" translatesAutoresizingMaskIntoConstraints="NO" id="lxd-To-PQb">
+                                <rect key="frame" x="87" y="28" width="240" height="79"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DbK-n9-4xA">
+                                <rect key="frame" x="30" y="28" width="23" height="35"/>
+                                <state key="normal" title="RegresarBoton" image="icono-regreso.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NEWSFEED" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uHx-Ib-Waw">
+                                <rect key="frame" x="168" y="38" width="110" height="52"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="16"/>
+                                <color key="textColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="doC-MA-za9">
+                                <rect key="frame" x="344" y="19" width="45" height="36"/>
+                                <state key="normal" title="Button" image="Juego 2 (2)-03.png"/>
+                                <connections>
+                                    <segue destination="bbe-FD-fUf" kind="show" id="kua-LC-AjH"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="235" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="bin-T8-JIb">
+                                <rect key="frame" x="45" y="124" width="321" height="533"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="celda" rowHeight="235" id="wYY-QP-sfw">
+                                        <rect key="frame" x="0.0" y="28" width="321" height="235"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wYY-QP-sfw" id="YAN-0w-9a7">
+                                            <rect key="frame" x="0.0" y="0.0" width="321" height="234"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nbb-CP-n55">
+                                                    <rect key="frame" x="16" y="0.0" width="129" height="209"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Kc-uC-XZ5">
+                                                    <rect key="frame" x="176" y="0.0" width="129" height="209"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del Juego" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVU-Pb-oOs">
+                                                    <rect key="frame" x="16" y="205" width="137" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre del Juego" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5a-Pi-vIW">
+                                                    <rect key="frame" x="176" y="205" width="137" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8O5-E5-t3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905" y="593"/>
+        </scene>
+        <!--Crear_Evento_Controller-->
+        <scene sceneID="VtM-2Q-ZwF">
+            <objects>
+                <viewController title="Crear_Evento_Controller" id="bbe-FD-fUf" customClass="CrearEvento_controller" customModule="WASDapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j4y-yw-SjC"/>
+                        <viewControllerLayoutGuide type="bottom" id="DXg-bs-02v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="npk-Qb-iRb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo.png" translatesAutoresizingMaskIntoConstraints="NO" id="72r-L2-pOZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.1764705882352941" green="0.1764705882352941" blue="0.1764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crear evento.png" translatesAutoresizingMaskIntoConstraints="NO" id="uos-SO-1L8">
+                                <rect key="frame" x="87" y="41" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="label.png" translatesAutoresizingMaskIntoConstraints="NO" id="1HT-3c-CoH">
+                                <rect key="frame" x="87" y="216" width="262" height="49"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="label.png" translatesAutoresizingMaskIntoConstraints="NO" id="pfz-qz-IsL">
+                                <rect key="frame" x="87" y="273" width="262" height="49"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CREAR EVENTOS 2.1-03.png" translatesAutoresizingMaskIntoConstraints="NO" id="obJ-l6-XmC">
+                                <rect key="frame" x="87" y="409" width="262" height="182"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiz-Bl-0g8">
+                                <rect key="frame" x="133" y="599" width="170" height="64"/>
+                                <state key="normal" title="Button" image="enter.png"/>
+                                <connections>
+                                    <action selector="buttonPress:" destination="bbe-FD-fUf" eventType="touchUpInside" id="Lny-fs-pip"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Llenar los campos para crear tu evento todos los espacios son obligatorios." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaM-6T-k4e">
+                                <rect key="frame" x="69" y="100" width="276" height="135"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.42745098039215684" green="0.42745098039215684" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JUEGO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zfe-Qy-T4Q">
+                                <rect key="frame" x="109" y="206" width="107" height="21"/>
+                                <fontDescription key="fontDescription" name="Coves-Bold" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.71764705882352942" green="0.12941176470588234" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FECHA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5g-e5-Pz2">
+                                <rect key="frame" x="109" y="330" width="87" height="21"/>
+                                <fontDescription key="fontDescription" name="Coves-Bold" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.12941176469999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DESCRIPCIÓN" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JhR-bF-IuJ">
+                                <rect key="frame" x="109" y="398" width="211" height="21"/>
+                                <fontDescription key="fontDescription" name="Coves-Bold" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.12941176469999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HORA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwv-XW-Koo">
+                                <rect key="frame" x="248" y="331" width="56" height="21"/>
+                                <fontDescription key="fontDescription" name="Coves-Bold" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.12941176469999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LUGAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTn-ih-OKz">
+                                <rect key="frame" x="109" y="263" width="107" height="21"/>
+                                <fontDescription key="fontDescription" name="Coves-Bold" family="Coves" pointSize="17"/>
+                                <color key="textColor" red="0.71764705880000002" green="0.12941176469999999" blue="0.25490196079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CM2-F5-AeH" userLabel="input_Lugar">
+                                <rect key="frame" x="122" y="283" width="181" height="30"/>
+                                <color key="textColor" white="0.85338811706376561" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xy4-kp-Rzy" userLabel="input_Juego">
+                                <rect key="frame" x="122" y="226" width="181" height="30"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jpn-kO-8Uj">
+                                <rect key="frame" x="20" y="20" width="23" height="35"/>
+                                <state key="normal" title="Button" image="icono-regreso.png"/>
+                                <connections>
+                                    <segue destination="8RF-5L-Ds2" kind="show" id="ldO-PV-sLj"/>
+                                </connections>
+                            </button>
+                            <datePicker contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="eqw-ML-YbQ" userLabel="datepicker_fecha">
+                                <rect key="frame" x="48" y="350" width="134" height="51"/>
+                                <rect key="contentStretch" x="1" y="0.0" width="0.5" height="1"/>
+                                <date key="date" timeIntervalSinceReferenceDate="490923611.73654002">
+                                    <!--2016-07-22 23:40:11 +0000-->
+                                </date>
+                            </datePicker>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UWP-qP-SEH" userLabel="textview_Descripcion">
+                                <rect key="frame" x="114" y="433" width="201" height="128"/>
+                                <color key="backgroundColor" red="0.54117647059999996" green="0.54117647059999996" blue="0.54117647059999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Coves-Light" family="Coves" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" spellCheckingType="no"/>
+                            </textView>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="exH-91-tBs" userLabel="datepicker_hora">
+                                <rect key="frame" x="211" y="350" width="160" height="51"/>
+                                <date key="date" timeIntervalSinceReferenceDate="490923611.73654002">
+                                    <!--2016-07-22 23:40:11 +0000-->
+                                </date>
+                            </datePicker>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="datePicker_fecha" destination="eqw-ML-YbQ" id="2ZE-Ab-HjJ"/>
+                        <outlet property="datePicker_hora" destination="exH-91-tBs" id="4nT-hh-L5q"/>
+                        <outlet property="descripcion" destination="UWP-qP-SEH" id="pJO-B0-hMq"/>
+                        <outlet property="juego" destination="Xy4-kp-Rzy" id="tUt-Kn-Oqt"/>
+                        <outlet property="lugar" destination="CM2-F5-AeH" id="Iaw-CH-GlJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vDw-jS-UdO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213" y="1109"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CREAR EVENTOS 2.1-03.png" width="800" height="562"/>
+        <image name="Juego 2 (2)-03.png" width="192" height="151"/>
+        <image name="Juego-01.png" width="1243" height="2209"/>
+        <image name="Juego-02.png" width="737" height="248"/>
+        <image name="Juego-03.png" width="1135" height="668"/>
+        <image name="crear evento.png" width="2433" height="1036"/>
+        <image name="enter.png" width="1656" height="640"/>
+        <image name="fondo.png" width="5175" height="9200"/>
+        <image name="icono-regreso.png" width="473" height="639"/>
+        <image name="label.png" width="824" height="144"/>
+    </resources>
 </document>

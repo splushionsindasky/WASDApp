@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  WASDapp
 //
-//  Created by salvador guillermo lomeli salazar on 16/07/16.
+//  Created by salvador Alejandro Soto on 16/07/16.
 //  Copyright © 2016 ChilaKillers. All rights reserved.
 //
 
